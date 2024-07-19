@@ -15,7 +15,7 @@ header {
     cursor: pointer;
     font-weight: 500;
     color: #800000;
-    font-family: 'playfair display';
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 #highlight {
     font-weight: 300;
@@ -65,7 +65,7 @@ ul li {
     font-weight: 800;
     margin: 20px;
     margin-bottom: -5px;
-
+    text-align: center;
 }
 .furniture {
     height: 500px;
@@ -75,4 +75,22 @@ ul li {
 
 .models {
     color: black;
+    font-weight: 400;
+    padding-left: 105px;
+}
+
+.char {
+    transform: translateY(115px);
+    transition: transform .5s;
+}
+
+#foot {
+    width: 99.5%;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    color: white;
+    background-color: black;
+    height: 20px;
+    padding: 5px;
 }
