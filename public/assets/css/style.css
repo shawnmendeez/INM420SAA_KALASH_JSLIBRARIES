@@ -14,10 +14,13 @@ header {
     text-align: center;
     cursor: pointer;
     font-weight: 500;
-    color: #faf9f6;
+    color: #800000;
+    font-family: 'playfair display';
 }
 #highlight {
     font-weight: 300;
+    color: #faf9f6;
+    font-family: 'inter';
 }
 #navbar {
     display: flex;
@@ -40,21 +43,6 @@ ul li {
     cursor: pointer;
     color: #faf9f6;
 }
-
-/* #signin {
-    color: white;
-    background-color: #6C5CE7;
-    font-weight: 700;
-    font-size: 18px;
-    border: none;
-    width: 150px;
-    height: 50px;
-    border-radius: 999px;
-    margin: 6px 135px 16px 300px;
-    cursor: pointer;
-} */
-
-
 #navlist {
     display: flex;
     list-style: none;
@@ -67,10 +55,24 @@ ul li {
 }
 
 .container {
-    height: 100vh;
-    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 15px;
+}
+#bestsellers {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+    margin-bottom: -5px;
+
+}
+.furniture {
+    height: 500px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.models {
+    color: black;
 }
